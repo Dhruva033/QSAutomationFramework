@@ -3,7 +3,7 @@ QSAutomation
 
 This project contains automated test cases for validating features of the QS Insight's , Login and Contact Us pages using Selenium, TestNG, and Java.
 
-#Project Overview
+# Project Overview
 
 This is an Data Driven testing framework developed using Java , Selenium WebDriver, TestNG, and Maven.
 
@@ -18,7 +18,7 @@ This is an Data Driven testing framework developed using Java , Selenium WebDriv
 ## Clone the Project in IntelliJ IDEA
 
 1. Open IntelliJ IDEA
-2. Go to File -> New -> Project from Version Control ->Git**
+2. Go to File -> New -> Project from Version Control -> Git
 3. Paste the repository URL
 4. Click Clone
 
@@ -40,7 +40,7 @@ This is an Data Driven testing framework developed using Java , Selenium WebDriv
 4.TC103_VerifyTheBrokenImagesInTheInsightSection
 5.TC104_VerifyTheLoginPageUsingWindowHandles
 
-#Framework Highlights
+## Framework Highlights
 
 src/main/java
 1.**BaseTest** (BaseConfig) – Sets up WebDriver, handles browser launch and teardown  
