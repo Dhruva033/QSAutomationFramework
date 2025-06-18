@@ -20,7 +20,8 @@ This is an Data Driven testing framework developed using Java , Selenium WebDriv
 1. Open IntelliJ IDEA
 2. Go to File -> New -> Project from Version Control -> Git
 3. Paste the repository URL
-4. Click Clone
+4. Select the Directory
+5. Click Clone
 
 ## Build the Project
 
