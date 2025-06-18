@@ -41,8 +41,8 @@ This is an Data Driven testing framework developed using Java , Selenium WebDriv
 5.TC104_VerifyTheLoginPageUsingWindowHandles
 
 ## Framework Highlights
-
 src/main/java
+
 1.**BaseTest** (BaseConfig) – Sets up WebDriver, handles browser launch and teardown  
 2. **pages/** – Business logic layer (e.g LoginPage.java,InsightsPage.java)  
 3.**PropertyUtils** (utility) – Reads values from config.properties  
@@ -51,12 +51,14 @@ src/main/java
 6.**CommonUtils** (commonutility) – Reusable actions (sendKeys, scroll, wait, click)
 
 src/test/java
+
 1. **objectrepository/** – Stores object locators for specific pages  
 2. **properties/config.properties** – Config for browser type, URL, and wait times  
 3. **RetryAnalyzer** (retryUtility) – Adds automatic retries for failed test cases  
 4. **testcases/** – Contains actual test case classes organized by scenario
 
 src/test/resources
+
 1. **testdata/QSTestData.xlsx** –  Contains test data used in test cases. 
  
 
